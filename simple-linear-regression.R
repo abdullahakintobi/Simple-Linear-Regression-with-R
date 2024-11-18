@@ -20,5 +20,6 @@ l_model
 # Summary of model
 summary(l_model)
 
+# Scatter
 plot(salary_df$YearsExperience, salary_df$Salary, pch = 16)
 abline(l_model) 
